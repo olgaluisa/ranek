@@ -43,5 +43,7 @@ Este projeto é uma aplicação web que exibe produtos e informações de contat
 
 ## 📷 Project images
 
-![image](https://github.com/user-attachments/assets/0c383304-8923-4b02-869a-a5e8013f6d68)
-![image](https://github.com/user-attachments/assets/d4d0cf86-28de-460f-a22b-88e115f9b67a)
+![image](https://github.com/user-attachments/assets/a6f00407-9b3d-463c-8708-2d5648364c66)
+
+![image](https://github.com/user-attachments/assets/d36a9b35-635d-40c2-a035-d25275b4cf6a)
+
