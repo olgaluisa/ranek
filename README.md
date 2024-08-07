@@ -14,6 +14,38 @@ Este projeto é uma aplicação web que exibe produtos e informações de contat
 - **Head:** Componente para alterar o título e a descrição da página.
 - **RouterMain:** Componente que define as rotas da aplicação.
 
+
+## Configuração das Rotas
+As rotas foram definidas no componente RouterMain.
+```
+import { Route, Routes } from 'react-router-dom';
+import Produtos from '../Components/Produtos';
+import Contato from '../Components/Contato';
+import ProdutoEspecifico from '../Components/ProdutoEspecifico';
+
+const RouterMain = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Produtos />} />
+      <Route path="produto/:id" element={<ProdutoEspecifico />} />
+      <Route path="contato" element={<Contato />} />
+    </Routes>
+  );
+};
+
+export default RouterMain;
+
+```
+
+## Tecnologias Utilizadas
+
+- **React:** React é uma biblioteca JavaScript para construção de interfaces de usuário. Ele permite criar componentes reutilizáveis que gerenciam seu próprio estado.
+- **React Router:** React Router é uma biblioteca para roteamento em aplicações React. Ela permite definir múltiplas rotas e navegar entre elas de forma declarativa.
+- **Fetch API:** A Fetch API é usada para fazer requisições HTTP assíncronas para a API externa que fornece os dados dos produtos.
+- **Tailwind CSS:** Tailwind CSS é uma biblioteca de utilitários CSS que facilita a criação de estilos diretamente no JSX.
+
+  
+
 ## Estrutura do Projeto
 
 ```src/
@@ -33,13 +65,6 @@ Este projeto é uma aplicação web que exibe produtos e informações de contat
 ├── App.js
 └── index.js
 ```
-
-## Tecnologias Utilizadas
-
-- **React:** React é uma biblioteca JavaScript para construção de interfaces de usuário. Ele permite criar componentes reutilizáveis que gerenciam seu próprio estado.
-- **React Router:** React Router é uma biblioteca para roteamento em aplicações React. Ela permite definir múltiplas rotas e navegar entre elas de forma declarativa.
-- **Fetch API:** A Fetch API é usada para fazer requisições HTTP assíncronas para a API externa que fornece os dados dos produtos.
-- **Tailwind CSS:** Tailwind CSS é uma biblioteca de utilitários CSS que facilita a criação de estilos diretamente no JSX.
 
 ## 📷 Project images
 
